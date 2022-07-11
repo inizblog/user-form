@@ -86,11 +86,6 @@ body{
   margin-top: 0px;
 }
 
-.titleonse{
-  font-size: 45px;
-  background: linear-gradient(transparent 40%, lightgreen 90%);
-}
-
 .form{
   border: 2px solid black;padding: 30px;
 }
