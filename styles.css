@@ -6,75 +6,47 @@ body{
 }
 
 .header{
-  height: 200px;
-  margin: 0px;
-}
-@media screen and (max-width: 480px){
-  .header{
-    height: 40px;
-  }
-}
-
-.headerimg{
-  width: 1425px;
-  height: auto;
-  border-bottom: 2px solid black;
-}
-@media screen and (max-width: 480px){
-  .headerimg{
-    width: 375px;
-    height: auto;
-    border-bottom: 2px solid black;
-  }
-}
-
-.globalmenu{
+  margin-top: 0px;
   height: 80px;
   width: auto;
-  background: #f24444;
-  border-bottom: 2px solid black;
+  background: #329ba8;
+  border: 2px solid #329ba8;
 }
-@media screen and (max-width: 480px){
-  .globalmenu{
-    height: 70px;
-  }
+
+.logo{
+  color: white;
+  font-size: 40px;
+  font-family: "Avenir Next";
+  float: left;
+  margin-top: 0px;
+  margin-left: 40px;
+  width: 280px;
+  padding: 10px;
+  margin-top: 5px;
 }
 
 .menuitems{
   font-family: monospace;
   font-size: 15px;
   color: black;
+  margin-top: -17px;
   list-style: none;
   float: left;
-  margin-left: 115px;
-  height: 80px;
+  height: 83px;
   width: 180px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
   background-position: 100% 0;
   background-size: 200% auto;
   background-image: linear-gradient(
     to right,
     white 0%,
     white 50%,
-    #f24444 50%,
-    #f24444 100%
+    #329ba8 50%,
+    #329ba8 100%
   );
   transition: background-position ease 0.4s;
 }
-@media screen and (max-width: 480px){
-  .menuitems{
-    font-size: 11px;
-    margin: 0px;
-    padding-top: 10px;
-    width: 75px;
-    line-height: 18px;
-    height: 60px;
 
-  }
-}
-
-.menuitems:hover {
+.menuitems:hover{
   background-position: 0 0;
 }
 
@@ -85,23 +57,15 @@ body{
 
 .main{
   height: auto;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Times new roman";
   width: 900px;
   padding: 70px;
-  margin-left: 190px;
+  margin: auto;
   margin-top: 70px;
   background: white;
   border-radius: 10px;
   border-top: 3px solid black;
-}
-@media screen and (max-width: 480px){
-  .main{
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-  }
 }
 
 .headingtitle{
@@ -110,28 +74,13 @@ body{
   padding-top: 50px;
   text-align: center;
   padding-bottom: 5px;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
   margin-top: 0px;
 }
-@media screen and (max-width: 480px){
-  .headingtitle{
-    line-height: 40px;
-    font-size: 35px;
-    width: auto;
-    padding: 0px;
-    margin: 0px;
-    padding-top: 35px;
-  }
-}
 
-.title1{
-  font-size: 60px;
-  background: linear-gradient(transparent 40%, orangered 60%);
-}
-@media screen and (max-width: 480px){
-  .title1{
-    font-size: 45px;
-  }
+.title{
+  font-size: 45px;
+  background: linear-gradient(transparent 40%, lightblue 90%);
 }
 
 .form{
@@ -150,7 +99,7 @@ body{
   text-align: left;
   margin-left: 65px;
   padding-left: 15px;
-  border-left: 5px solid brown;
+  border-left: 5px solid black;
 }
 
 textarea{
@@ -171,20 +120,10 @@ textarea{
   width: auto;
   background: black;
 }
-@media screen and (max-width: 480px){
-  .footer{
-    width: auto;
-  }
-}
 
 .blogname2{
   text-align: center;
   color: white;
   font-size: 45px;
   padding-top: 50px;
-}
-@media screen and (max-width: 480px){
-  .blogname2{
-    font-size: 30px;
-  }
 }
